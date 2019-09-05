@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css" >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>curriculum vitae</title>
+</head>
+<body>
+    <h1>CURRICULUM VITAE</h1>
+    <img src="https://res.cloudinary.com/drelcj/image/upload/v1566620390/1-40_bb3w6c.jpg" width ="300px">  />
+    <b><p>NAME : </b>CHIJIOKE EMMANUEL CHUKWUDI </p>
+    <b><p> Address : </b> No 6B Festac estate behind wokem estate kilimanjaro eateries street, uniport choba </p>
+    <b> <p>Mobile Phones :</b> (+234)07062333670, (+234)07062333670 </p>
+    <b> <p> E-mail :</b> <a href="manuelckay@gmail.com">manuelckay@gmail.com</a> </p>
+    <b><P> Objectives : </b> To find a job in a company or organisation that could help me grow and achieve my goals in life and also enable me acquire and develop the skills required for my career. </p>
+    <b><p> Profile: </b> Articulate and energetic undergraduate, experienced marketing consultant with a demonstrated history working in the retail industry, leadership, production, skilled in integrated marketing , sales, brand management, B2C marketing and an excellent communication and human relation skills with a B.Sc in view focused in microbiology general from thr university of Port Harcourt.</p>
+<h2><B><P>Education and Qualification : </P></B></h2>
+<b><p> 2015 - 2019 : </b> University of Port Harcourt UNIPORT Rivers State B.Sc Department of Microbiology ( in view) </p>
+<B><P>2008-2011: </B> Community Secondary School Rumuekini 5Bs 3Cs 1D </P>
+<B><P>2008: </B> Junior Secondary School Certificate Examination, Community Secondary School Elele</p>
+    <B><P>2005-2007: </B> Olobo Premier College, Choba Port Harcourt. </p>
+        <b><p> 2005: </b> First School Leaving Certificate, Community Primary SChool, Egan, Lagos State. </p>
+        <h2><p> Work Experience</p></h2>
+<b> <p> Feb.2019-till date: </b> DUFIL PRIMA FOODS PLC, CHOBA UNIPORT(Indomie).</p>
+<b> <p> July2015-Sept2017 </b> Unique Catering services, Rumuosi Port Harcourt.</p>
+<B><P>2014-till date: </B> Sales consultant <A href="https://www.jumia.com.ng"> www.jumia.com.ng</A> and member of J-FORCE team. </p> 
+    <b><p>Jan.2013-May2014:</b> Clerk, Leanford group  of Company, Apo, Abuja F.C.T. </P> 
+        <h2> <p> Awards/Certificates </p></h2>
+        <p>Brand and Marketing Integration (2019), LinkedIN </p>
+        <P>Marketing Foundation: Growth Hacking (2019), LinkedIN </P>
+        <P>Captain, team management (J-FORCE program 2015) </P>
+        <p>Best in academics, Olobo Premier College (2007) </p>
+        <b><p>Skills: </b> Musical Instrument, Radio/TV Presenting. HTML5, CSS </p>
+        <b> <p> Interests: </b> Swimming, Travel, Music, Sports.
+          
+        <h2>SEND ME A MESSAGE </h2>>
+        <p><span class="error"></span>* required field</span></p>
+        <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>
+          First Name: <input type="text" name="name" minlength="4" value=" ">
+          <span class="error">* <?php echo $nameErr;?></span>
+          <br><br>
+          Last Name: <input type="text" name="name" minlength="4" value=" ">
+          <span class="error">* <?php echo $nameErr;?></span>
+          <br><br>
+          Title: <input type="checkbox" name="male" echo "checked" > Mr
+          <input type="checkbox" name="Female" echo "checked" > Mrs
+          <input type="text" name="other" > Other 
+          <br></br>
+          E-mail: <input type="text" name="email" echo "email"> 
+          <span class="error">* <?php echo $emailErr;?></span>
+          <br><br>
+          Message: <textarea name="comment" rows="5" cols="40" minlength="20"> </textarea>
+          <br><br>
+          Gender:
+          <input type="radio" name="gender" <?php if (isset($gender) && $gender=="female") echo "checked";?>Female
+          <input type="radio" name="gender" <?php if (isset($gender) && $gender=="male") echo "checked";?>Male
+          <input type="radio" name="gender" <?php if (isset($gender) && $gender=="other") echo "checked";?>Other  
+          <span class="error">* <?php echo $genderErr;?></span>
+          <br><br>
+          <input type="submit" name="submit" value="Submit">  
+        </form>
+        
+       

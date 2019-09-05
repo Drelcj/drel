@@ -1,0 +1,8 @@
+body{
+    background-color: azure
+}
+h1{ 
+    color: blueviolet; font-family: 'Courier New', Courier, monospace; text-align: center; border: 2px saddlebrown; font-size: 90px
+}
+h2 {color: seagreen; font: bolder; font-size: 70px; font-style: italic
+}
